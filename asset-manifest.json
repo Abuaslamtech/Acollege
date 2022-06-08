@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/acollege/static/css/main.fc94fc36.css",
-    "main.js": "/acollege/static/js/main.c028a6a3.js",
+    "main.js": "/acollege/static/js/main.956833a2.js",
     "static/media/africa.jpg": "/acollege/static/media/africa.fcf46227b446a9436ae6.jpg",
     "static/media/africah.jpg": "/acollege/static/media/africah.be464d350c578dae3059.jpg",
     "static/media/study.jpg": "/acollege/static/media/study.b4b95e906f610d3d3413.jpg",
     "index.html": "/acollege/index.html",
     "main.fc94fc36.css.map": "/acollege/static/css/main.fc94fc36.css.map",
-    "main.c028a6a3.js.map": "/acollege/static/js/main.c028a6a3.js.map"
+    "main.956833a2.js.map": "/acollege/static/js/main.956833a2.js.map"
   },
   "entrypoints": [
     "static/css/main.fc94fc36.css",
-    "static/js/main.c028a6a3.js"
+    "static/js/main.956833a2.js"
   ]
 }
