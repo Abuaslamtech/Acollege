@@ -1,0 +1,10 @@
+.acont{
+    width: 70%;
+    margin: auto;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.acont h1{
+    text-align: center;
+    color: orangered;
+}

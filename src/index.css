@@ -1,0 +1,431 @@
+/* body */
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: fit-content;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Navbar */
+
+.a{
+    color: orangered;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    width: 70%;
+}
+.menu{
+    display: flex;
+    margin-left: auto;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    margin-left: 20px;
+    font-size: 20px;
+}
+.menu a{
+    text-decoration: none;
+    color: #000;
+}
+
+.menu a:hover{
+    text-decoration: none;
+    color: #000;
+    border-bottom: 3px solid orangered;
+}
+.menu a:active{
+    text-decoration: none;
+    color: #000;
+    border-bottom: 3px solid orangered;
+}
+
+/* Header Image */
+
+.headimage{
+    background: url(./image/study.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+    width: 80%;
+    margin: auto;
+}
+.headtxt{
+    padding: 90px;
+    padding-top: 10px;
+    color: #fff;
+    width: 50%;
+}
+.headtxt h2{
+    font-size: 65px;
+    margin-bottom: 0;
+}
+.headtxt h3{
+    font-size: 35px;
+    margin-top: 0;
+}
+.headtxt p{
+    font-size: 20px;
+}
+.headtxt button{
+    font-size: 15px;
+    width: 130px;
+    border: 2px solid orangered;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+}
+.headtxt .act{
+    background-color: orangered;
+    color: #fff;
+}
+.headtxt .nact{
+    background-color: transparent;
+    color: #fff;
+}
+.headtxt .nact:hover{
+    background-color: orangered;
+    color: #fff;
+}
+
+/* Sections */
+
+.section{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    font-weight: normal;
+    font-size: 16px;
+}
+.section h2{
+    font-size: 20px;
+}
+.section h3{
+    font-size: 18px;
+}
+.cont{
+    background-color: #ecf2f5;
+    color: #000;
+    width: 250px;
+    margin: 60px auto 60px auto;
+    padding: 40px 10px 40px 10px;
+    border-radius: 15px;
+    text-align: center;
+}
+.link{
+    background-color: orangered;
+    color: #fff;
+}
+.cont:hover{
+    background-color: orangered;
+    color: #fff;
+}
+/* Mission */
+
+.mission{
+    width: 80%;
+    height: 350px;
+    margin: auto;
+    background: url(./image/study.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-clip: content-box;
+}
+.mission img{
+    width: 350px;
+    height: 250px;
+    margin: 50px;
+}
+.msn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    width: 100%;
+    height: 350px;
+}
+.mcont{
+    margin: 50px;
+    margin-top: 5px;
+}
+.mission p{
+    margin-top: 30px;
+}
+.mission .rdmr{
+    background-color: orangered;
+    color: #fff;
+    width: 130px;
+    margin-top: 30px;
+    padding: 10px;
+    border: 2px solid orangered;
+    border-radius: 15px;
+}
+.mission .rdmr:hover{
+    background-color: transparent;
+    color: #fff;
+}
+.mhead{
+    border-bottom: 4px solid orangered;
+    padding-bottom: 10px;
+}
+
+/* Events */
+
+.event{
+    display: flex;
+    flex-direction: row;
+    margin: 60px auto 60px auto;
+    width: 70%;
+}
+.event h1{
+    margin-bottom: 60px;
+}
+.eleft{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+.eright{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.tfevent{
+    display: flex;
+    flex-direction: row;
+    width: 450px;
+    height: 300px;
+    padding: 30px;
+    background-color: #ecf2f5;
+
+}
+.tfeventd{
+    margin: auto;
+    margin-left: 60px;
+    align-items: center;
+}
+.event h3{
+   font-size: 18px;
+}
+.tfeventd button{
+    background-color: orangered;
+    color: #fff;
+    padding: 10px;
+    width: 130px;
+    border: 2px solid orangered;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.tfeventd button:hover{
+    background-color: transparent;
+    color: orangered;
+}
+.tfevent .tfimg{
+    height: 250px;
+    width: 200px;
+    margin: auto;
+}
+.event img{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+.lievent{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    align-items: center;
+}
+.lievent h3{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.lievent p{
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.lievent .link{
+    background-color: #fff;
+    color: orangered;
+    margin-bottom: 15px;
+}
+.eblock{
+    margin-bottom: 15px;
+}
+
+/* Footer */
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    padding: 15px;
+    font-size: 18px;
+    line-height: 30px;
+}
+.footer a:hover{
+    color: orangered;
+}
+.acol, .links , .contact {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-left: auto;
+}
+.acol p{
+    margin-top: 0;
+}
+.acol h2, .links h2, .contact h2{
+    margin-bottom: 30px;
+}
+.dev{
+    background-color: #000;
+    color: #fff;
+    width: 80%;
+    color: #fff;
+    font-size: 20px;
+    padding: 15px;
+    margin: auto;
+    text-align: center;
+}
+
+
+/* Mobile version */
+@media (max-width: 500px) {
+
+/* Navbar */
+
+.menu{
+    display: flex;
+}
+li{
+    margin-left: 40px;
+    font-size: 30px;
+    padding: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* Header Image */
+body{
+    width:fit-content;
+}
+.headimage{
+    width: 570px;
+    margin-left: 50px;
+}
+.headtxt{
+    width: 80%;
+}
+/* Sections */
+
+.section{
+    flex-direction: column;
+    font-size: 18px;
+}
+.section h2{
+    font-size: 22px;
+}
+.cont{
+    width: 100%;
+    margin: 10px auto;
+    padding: 60px 20px ;
+}
+.link{
+    margin-top: 50px;
+}
+
+/* Mission */
+
+.mission{
+    width: 570px;
+    margin-left: 50px;
+    height: 500px;
+    margin-top: 50px;
+}
+.mission img{
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    margin-right: 20px;
+}
+.msn{
+    height: 500px;
+    width: fit-content;
+}
+.mcont{
+    margin: 10px;
+}
+.mtitle{
+    width: 200%;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.mtext{
+    font-size: 20px;
+    margin-top: 150px;
+    margin-left: 10px;
+}
+.rdmr{
+    margin-left: 50px;
+}
+
+/* Events */
+
+.event{
+    flex-direction: column;
+    margin: 60px auto 60px auto;
+    width: 80%;
+    margin: auto;
+}
+.event h1{
+    margin-bottom: 60px;
+    margin-top: 50px;
+}
+.eblock p{
+    font-size: 22px;
+}
+.eblock h3{
+    font-size: 22px;
+}
+.link{
+    font-size: 20px;
+}
+.tfevent{
+    display: flex;
+    flex-direction: row;
+    width: 98%;
+    height: auto;
+    margin-bottom: 40px;
+    padding: 30px;
+    font-size: 18px;
+}
+/* Footer */
+
+.footer{
+    width: 95%;
+    margin: 0 10px;
+    padding: 35px;
+}
+.dev{
+    width: 95%;
+    padding: 35px;
+    margin: 0 10px;
+}
+}

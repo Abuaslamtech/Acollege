@@ -1,0 +1,26 @@
+.vie{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    padding: 15px;
+    text-align: center;
+    margin: auto;
+}
+.hlp{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+.hlp button{
+    width: 100px;
+    height: 50px;
+    background-color: orangered;
+    margin: 10px;
+    color: #fff;
+    border: none;
+}
+.hlp button:hover{
+    background-color: transparent;
+    color: orangered;
+    border: 2px solid orangered;
+}
